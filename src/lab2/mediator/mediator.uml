@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioralPatterns.mediator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="240.0">behavioralPatterns.mediator.Admin</node>
+    <node x="376.7641025641026" y="435.0">behavioralPatterns.mediator.SimpleChatRunner</node>
+    <node x="426.28608058608063" y="0.0">behavioralPatterns.mediator.User</node>
+    <node x="110.66410256410256" y="28.0">behavioralPatterns.mediator.Chat</node>
+    <node x="410.0" y="251.5">behavioralPatterns.mediator.SimpleTextChat</node>
+    <node x="205.0" y="240.0">behavioralPatterns.mediator.SimpleUser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioralPatterns.mediator.SimpleTextChat" target="behavioralPatterns.mediator.Chat">
+      <point x="-80.25" y="-61.0" />
+      <point x="436.75" y="210.0" />
+      <point x="303.2641025641026" y="210.0" />
+      <point x="85.60000000000002" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.Chat" target="behavioralPatterns.mediator.User">
+      <point x="0.0" y="-27.0" />
+      <point x="217.66410256410256" y="106.0" />
+      <point x="465.92893772893774" y="106.0" />
+      <point x="-52.85714285714283" y="38.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.Admin" target="behavioralPatterns.mediator.Chat">
+      <point x="0.0" y="-72.5" />
+      <point x="92.5" y="220.0" />
+      <point x="132.0641025641026" y="220.0" />
+      <point x="-85.6" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleUser" target="behavioralPatterns.mediator.Chat">
+      <point x="-61.66666666666666" y="-72.5" />
+      <point x="235.83333333333334" y="220.0" />
+      <point x="217.66410256410256" y="220.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleChatRunner" target="behavioralPatterns.mediator.Admin">
+      <point x="-70.39999999999998" y="-27.0" />
+      <point x="394.3641025641026" y="415.0" />
+      <point x="92.5" y="415.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleChatRunner" target="behavioralPatterns.mediator.SimpleTextChat">
+      <point x="0.0" y="-27.0" />
+      <point x="464.7641025641026" y="415.0" />
+      <point x="463.5" y="415.0" />
+      <point x="-53.5" y="61.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleChatRunner" target="behavioralPatterns.mediator.SimpleUser">
+      <point x="-35.19999999999999" y="-27.0" />
+      <point x="429.5641025641026" y="405.0" />
+      <point x="297.5" y="405.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleTextChat" target="behavioralPatterns.mediator.User">
+      <point x="80.25" y="-61.0" />
+      <point x="597.25" y="220.0" />
+      <point x="559.9601648351648" y="220.0" />
+      <point x="559.9601648351648" y="116.0" />
+      <point x="571.6432234432235" y="116.0" />
+      <point x="52.85714285714289" y="38.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleChatRunner" target="behavioralPatterns.mediator.User">
+      <point x="70.39999999999998" y="-27.0" />
+      <point x="535.1641025641026" y="415.0" />
+      <point x="634.5" y="415.0" />
+      <point x="634.5" y="116.0" />
+      <point x="598.071794871795" y="116.0" />
+      <point x="79.28571428571433" y="38.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.SimpleUser" target="behavioralPatterns.mediator.User">
+      <point x="61.666666666666686" y="-72.5" />
+      <point x="358.63324175824175" y="116.0" />
+      <point x="492.3575091575092" y="116.0" />
+      <point x="-26.428571428571445" y="38.0" />
+    </edge>
+    <edge source="behavioralPatterns.mediator.Admin" target="behavioralPatterns.mediator.User">
+      <point x="-61.666666666666686" y="-72.5" />
+      <point x="30.833333333333314" y="220.0" />
+      <point x="79.88324175824175" y="220.0" />
+      <point x="79.88324175824175" y="96.0" />
+      <point x="439.5003663003663" y="96.0" />
+      <point x="-79.28571428571428" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="334.5" y="225.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

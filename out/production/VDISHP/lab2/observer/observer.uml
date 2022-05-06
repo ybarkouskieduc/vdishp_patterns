@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioralPatterns.observer</OriginalElement>
+  <nodes>
+    <node x="137.98916666666665" y="0.0">behavioralPatterns.observer.Observer</node>
+    <node x="237.60583333333332" y="491.0">behavioralPatterns.observer.JobSearch</node>
+    <node x="0.0" y="105.0">behavioralPatterns.observer.Observed</node>
+    <node x="95.13666666666666" y="254.0">behavioralPatterns.observer.JavaDeveloperJobSite</node>
+    <node x="249.0" y="104.0">behavioralPatterns.observer.Subscriber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioralPatterns.observer.JobSearch" target="behavioralPatterns.observer.Subscriber">
+      <point x="18.625" y="-27.0" />
+      <point x="330.73083333333335" y="471.0" />
+      <point x="355.5" y="471.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioralPatterns.observer.Observed" target="behavioralPatterns.observer.Observer">
+      <point x="0.0" y="-49.0" />
+      <point x="108.5" y="84.0" />
+      <point x="159.28916666666666" y="84.0" />
+      <point x="-85.19999999999999" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.observer.Subscriber" target="behavioralPatterns.observer.Observer">
+      <point x="0.0" y="-50.0" />
+      <point x="355.5" y="84.0" />
+      <point x="287.08916666666664" y="84.0" />
+      <point x="42.599999999999966" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.observer.JavaDeveloperJobSite" target="behavioralPatterns.observer.Observed">
+      <point x="-72.33333333333331" y="-93.5" />
+      <point x="131.30333333333334" y="229.0" />
+      <point x="108.5" y="229.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="behavioralPatterns.observer.JavaDeveloperJobSite" target="behavioralPatterns.observer.Observer">
+      <point x="72.33333333333331" y="-93.5" />
+      <point x="275.96999999999997" y="229.0" />
+      <point x="238.5" y="229.0" />
+      <point x="238.5" y="84.0" />
+      <point x="244.48916666666665" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioralPatterns.observer.JobSearch" target="behavioralPatterns.observer.JavaDeveloperJobSite">
+      <point x="-55.875" y="-27.0" />
+      <point x="256.23083333333335" y="471.0" />
+      <point x="149.38666666666666" y="471.0" />
+      <point x="-54.25" y="93.5" />
+    </edge>
+    <edge source="behavioralPatterns.observer.JobSearch" target="behavioralPatterns.observer.Observer">
+      <point x="55.87499999999999" y="-27.0" />
+      <point x="367.9808333333333" y="471.0" />
+      <point x="472.5" y="471.0" />
+      <point x="472.5" y="74.0" />
+      <point x="329.68916666666667" y="74.0" />
+      <point x="85.19999999999999" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="193.0" />
+  <SelectedNodes>
+    <node>behavioralPatterns.observer.Subscriber</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
